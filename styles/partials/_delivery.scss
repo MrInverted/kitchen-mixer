@@ -1,0 +1,31 @@
+.delivery {
+
+  &__grid {
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  &__item {
+    padding: 15px;
+    height: 250px;
+    background: rgb(245, 245, 245);
+  }
+
+  h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+    border-bottom: 1px solid rgb(53, 180, 68);
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+    font-size: 19px;
+    line-height: 1.1;
+  }
+}

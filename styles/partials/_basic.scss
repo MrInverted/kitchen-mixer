@@ -1,0 +1,26 @@
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  width: 480px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  overflow: unset;
+  position: relative;
+}
+
+main {
+  padding-top: 65px;
+}
+
+.link {
+  text-decoration: underline;
+
+  &:hover {
+    opacity: 0.5;
+  }
+}

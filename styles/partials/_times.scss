@@ -1,0 +1,27 @@
+.timer {
+  p {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 16px;
+  }
+
+  &__clock {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  &__time {
+    font-size: 12px;
+  }
+
+  .hours,
+  .minutes,
+  .seconds {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
